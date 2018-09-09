@@ -36,3 +36,4 @@ tmp/
 db/*
 
 vendor/
+config/credentials.yml.enc
