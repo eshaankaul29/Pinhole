@@ -4,9 +4,9 @@ class AuglisController < ApplicationController
   before_action :set_image_paths, only: :create
 
   def new; end
-
+ 
   def create
-    heatmap_file = ImageDiffHeatmap.call(@first_image, @second_image)
+    heatmap_file = ImageDiffHeatmap.call(@first_image, @second_image) #service:ImageDiffHeatmap two files and returns heatmap in png
     redirect_to action: :show_image, output_image: heatmap_file
   end
 
