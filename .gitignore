@@ -26,6 +26,7 @@ tmp/
 /yarn-error.log
 
 /public/assets
+/public
 .byebug_history
 
 # Ignore master key for decrypting credentials and more.
@@ -36,3 +37,13 @@ tmp/
 db/*
 
 vendor/
+.idea/
+# Exclude zeus files
+custom_plan.rb
+zeus.json
+
+# Exclude shared folders
+/shared
+
+# Ignore application configuration
+/config/application.yml
