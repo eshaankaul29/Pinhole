@@ -30,6 +30,8 @@ class ImageDiffHeatmap
     output_pnm_file
   end
 
+  #we have to convernt pnm to png
+  
   def convert_to_png(output_pnm_file, output_png_file)
     system("convert #{output_pnm_file} #{output_png_file}")
 
