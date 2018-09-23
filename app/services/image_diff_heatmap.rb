@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-
+#we temporarily store two files in the backend and once the processing has been done the two images are then flushed out automatically.
 # Outputs diff of 2 images and generates heatmap
 class ImageDiffHeatmap
   include Service
